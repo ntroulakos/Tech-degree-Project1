@@ -1,6 +1,10 @@
 /* Global Layout Set-up */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
 * { 
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
   
 body {
@@ -57,7 +61,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/amsterdam.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -68,13 +72,13 @@ header {
 header .profile-image {
   margin-top: 50px;
   width: 150px;
-  height: 150px;
+  height: 100px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 3px solid black;
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(360deg);
 }
 .tag {
   background-color: #efefef;
@@ -100,24 +104,6 @@ header .profile-image:hover {
 }
 .card:hover {
   border-color: #ff99ff;
-}
-
-ul.skills {
-  padding: 0;
-  text-align: center;
-}
-
-.skills li {
-  border-radius: 6px;
-  display: inline-block;
-  background: #ff9904;
-  color: white;
-  padding: 5px 10px;
-  margin: 2px;
-}
-
-.skills li:nth-child(odd) {
-  background: #0399ff;
 }
 
 footer {
@@ -151,14 +137,17 @@ a.social {
   opacity: .4;
   transition: all .5s;
 }
-a.twitter {
-  background-image: url(images/twitter.svg);
+a.treehouse {
+  background-image: url(images/teamtreehouse.svg);
 }
 a.linkedin {
   background-image: url(images/linkedin.svg);
 }
 a.github {
   background-image: url(images/github.svg);
+}
+a.email {
+  background-image: url(images/email.svg);
 }
 a.social:hover {
   opacity: 1;
