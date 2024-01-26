@@ -103,7 +103,7 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: green;
 }
 
 footer {
@@ -155,6 +155,70 @@ a.social:hover {
 .clearfix {
   clear: both;
 }
+
+#body-experience{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #222;
+  background: #f7f5f0;
+}
+
+#header-experience {
+  background: none; 
+  background-size: none;
+  text-align: left;
+  overflow: hidden;
+  padding-top: 60px;
+  line-height: 1.5;
+  padding-left: 60px
+  
+}
+
+.cv-image {
+  margin-top: 100px;
+  width: 150px;
+  height: 100px;
+  border-radius: 40%;
+  border: 3px solid black;
+  transition: all .5s;
+}
+
+#name {
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+#header-experience {
+  display: -ms-flexbox; 
+  display: flex; 
+  max-width: 1200px;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  margin: 0 auto;
+  background-color: #6633ff;
+}
+
+#card-experience{
+  margin-top: 80px;
+  padding: 20px 100px 40px;
+  max-width: 500px;
+  text-align: left;
+  transition: all .5s;
+}
+
+#body-experience{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #222;
+}
+
+
+
+
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
