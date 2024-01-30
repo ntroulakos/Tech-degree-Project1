@@ -14,6 +14,7 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #222;
   background: #f7f5f0;
+  
 }
 /* Link Styles */
 
@@ -156,25 +157,13 @@ a.social:hover {
   clear: both;
 }
 
-#body-experience{
+#body-experience {
   margin: 0;
   padding: 0;
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  color: #222;
-  background: #f7f5f0;
 }
 
-#header-experience {
-  background: none; 
-  background-size: none;
-  text-align: left;
-  overflow: hidden;
-  padding-top: 60px;
-  line-height: 1.5;
-  padding-left: 60px
-  
-}
 
 .cv-image {
   margin-top: 100px;
@@ -197,25 +186,81 @@ a.social:hover {
   -ms-flex-pack: distribute;
   justify-content: space-around;
   margin: 0 auto;
-  background-color: #6633ff;
+  background: url('images/glasses-desk.jpg') top center ;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  border-radius: 50px;
+  overflow: hidden;
+  text-align: left;
+  overflow: hidden;
+  padding-top: 60px;
+  line-height: 1.5;
+  padding-left: 60px
 }
 
-#card-experience{
+#header-experience #name-picture{
+  margin-left: 40px;
+}
+
+
+#secondcard-experience {
   margin-top: 80px;
   padding: 20px 100px 40px;
-  max-width: 500px;
+  max-width: 1000px;
   text-align: left;
   transition: all .5s;
 }
 
-#body-experience{
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-  color: #222;
+#profiles {
+  list-style-type: none; 
+  padding-left: 30px;
+  padding-top: 4px;
 }
 
+#profiles #LinkedIn {
+  border-radius: 25px;
+  display: inline-block;
+  background: #0399ff;;
+  padding: 5px 10px;
+  margin: 2px;
+}
+#profiles #Github {
+  border-radius: 25px;
+  display: inline-block;
+  background: purple;
+  padding: 5px 10px;
+  margin: 2px;
+}
+#profiles #TreeHouse {
+  border-radius: 25px;
+  display: inline-block;
+  background: green;;
+  padding: 5px 10px;
+  margin: 2px;
+}
+#profiles #Email {
+  border-radius: 25px;
+  display: inline-block;
+  background: red;
+  padding: 5px 10px;
+  margin: 2px;
+}
+
+#main-experience {
+  background-image: none;
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;
+  
+}
+
+hr {
+  margin: 2em auto; /* centred margin */
+  height: 2px; /* thickness of the line */
+  background-color: black; /* colour of the line */
+  border: none; /* no border */
+}
 
 
 
