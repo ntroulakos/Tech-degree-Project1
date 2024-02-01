@@ -196,7 +196,9 @@ a.social:hover {
   overflow: hidden;
   padding-top: 60px;
   line-height: 1.5;
-  padding-left: 60px
+  padding-left: 60px;
+  flex-direction: column;
+  align-items: center; 
 }
 
 #header-experience #name-picture{
@@ -275,6 +277,10 @@ hr {
       -ms-flex-pack: distribute;
       justify-content: space-around;
       margin: 0 auto;
+  }
+
+  #header-experience {
+    flex-direction: row;
   }
 
   header {
